@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="10dp"
+    android:gravity="center"
     android:orientation="vertical">
 
     <LinearLayout
@@ -13,7 +14,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView27"
+            android:id="@+id/awardsnameText"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -23,7 +24,7 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName7"
+            android:id="@+id/awardsName"
             android:layout_width="260dp"
             android:layout_height="50dp"
             android:layout_marginRight="10dp"
@@ -40,7 +41,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView44"
+            android:id="@+id/awardsinstText"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -50,13 +51,13 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName8"
+            android:id="@+id/awardsInst"
             android:layout_width="260dp"
             android:layout_height="50dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="수상명을 입력해주세요"
+            android:hint="수상기관을 입력해주세요"
             android:inputType="textPersonName" />
 
     </LinearLayout>
@@ -68,7 +69,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView47"
+            android:id="@+id/awardsdateText"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -78,13 +79,13 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName9"
+            android:id="@+id/awardsDate"
             android:layout_width="260dp"
             android:layout_height="50dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="수상명을 입력해주세요"
+            android:hint="수상일자를 입력해주세요"
             android:inputType="textPersonName" />
     </LinearLayout>
 
@@ -108,4 +109,5 @@
             android:contentDescription="증명서류를 첨부하세요"
             app:srcCompat="@android:drawable/ic_menu_add" />
     </LinearLayout>
+
 </LinearLayout>

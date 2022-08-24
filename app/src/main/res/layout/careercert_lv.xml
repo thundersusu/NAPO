@@ -23,7 +23,7 @@
             android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/textView45"
+            android:id="@+id/certName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView" />
@@ -47,7 +47,7 @@
             android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/textView50"
+            android:id="@+id/certinst"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView" />
@@ -72,14 +72,14 @@
             android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/textView53"
+            android:id="@+id/certdate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="120dp"
             android:text="TextView" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/certCal"
             android:layout_width="48dp"
             android:layout_height="50dp"
             android:contentDescription="달력 이미지"

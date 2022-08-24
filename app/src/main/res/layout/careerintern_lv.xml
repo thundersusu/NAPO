@@ -14,7 +14,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView27"
+            android:id="@+id/awardsnameText"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -24,7 +24,7 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName7"
+            android:id="@+id/awardsName"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_marginRight="10dp"
@@ -78,7 +78,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView47"
+            android:id="@+id/awardsdateText"
             android:layout_width="90dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
