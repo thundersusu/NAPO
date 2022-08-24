@@ -22,11 +22,14 @@
             android:textColor="#000000"
             android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/certName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+        <EditText
+            android:id="@+id/lang_kind"
+            android:layout_width="245dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="언어를 등록하세요"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -47,6 +50,7 @@
             android:textSize="24sp" />
 
         <SearchView
+            android:id="@+id/lang_test"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -69,11 +73,14 @@
             android:textColor="#000000"
             android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/textView56"
+        <EditText
+            android:id="@+id/lang_score"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="점수(등급)을 입력해주세요"
+            android:inputType="textPersonName" />
 
     </LinearLayout>
 
@@ -94,12 +101,14 @@
             android:textColor="#000000"
             android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/certinst"
+        <EditText
+            android:id="@+id/lang_date"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="120dp"
-            android:text="TextView" />
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="취득일자를 입력하세요"
+            android:inputType="textPersonName" />
 
         <ImageButton
             android:id="@+id/certCal"

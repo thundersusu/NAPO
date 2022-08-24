@@ -44,7 +44,15 @@ public class CareerCertAdapter extends BaseAdapter {
         EditText certDate = view.findViewById(R.id.certDate);
 
 
+        certInst.setText(vo.getCertInst());
+        certDate.setText(vo.getCertDate());
 
-        return null;
+
+        return view;
+    }
+
+    public void addItems(String cert_ser, String certInst, String certDate){
+        CareerCertVO vo = new CareerCertVO(cert_ser, certInst, certDate);
+        certItems.add(vo);
     }
 }

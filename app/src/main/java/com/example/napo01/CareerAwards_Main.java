@@ -25,7 +25,7 @@ public class CareerAwards_Main extends AppCompatActivity {
 
         careerAwardsList.setAdapter(careerawardsAdapter);
         careerawardsAdapter.addItems("","","");
-//        careerawardsAdapter.getItem(0);
+
         careerawardsAdapter.notifyDataSetChanged();
 
         btn_plus.setOnClickListener(new View.OnClickListener() {

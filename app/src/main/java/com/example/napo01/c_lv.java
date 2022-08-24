@@ -24,7 +24,7 @@ public class c_lv extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.careercert_lv_copy);
 
-    listview = findViewById(R.id.listview);
+    listview = findViewById(R.id.careercert_List);
     certName = findViewById(R.id.certName);
     certDate = findViewById(R.id.certinst);
     certInst = findViewById(R.id.certinst);

@@ -25,7 +25,10 @@
         <SearchView
             android:id="@+id/cert_ser"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            app:iconifiedByDefault="false"
+            app:queryHint="자격증명을 입력하세요"
+            />
 
     </LinearLayout>
 
@@ -92,17 +95,4 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btn_Plus"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="추가" />
-
-    <ListView
-        android:id="@+id/listview"
-        android:layout_width="wrap_content"
-        android:layout_height="349dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp" />
 </LinearLayout>

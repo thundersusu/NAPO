@@ -51,8 +51,5 @@ public class CareerAwardsAdapter extends BaseAdapter {
             CareerAwardsVO vo = new CareerAwardsVO(name, inst, date);
             awardsItems.add(vo);
         }
-        public void setItems(String name, String inst, String date){
-            CareerAwardsVO vo = new CareerAwardsVO(name, inst, date);
-            awardsItems.get(0);
-        }
+
 }
