@@ -49,7 +49,8 @@ public class EditCareer extends AppCompatActivity implements View.OnClickListene
         }
 
         if(viewId==R.id.edt_intn){
-
+            Intent intent = new Intent(getApplicationContext(), CareerIntern_Main.class);
+            startActivity(intent);
         }
 
         if(viewId==R.id.edt_lang){
