@@ -24,7 +24,7 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/awardsName"
+            android:id="@+id/internName"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_marginRight="10dp"
@@ -52,7 +52,7 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName10"
+            android:id="@+id/internPer"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:layout_weight="1"
@@ -88,7 +88,7 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/editTextTextMultiLine2"
+            android:id="@+id/internAct"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:layout_marginRight="10dp"

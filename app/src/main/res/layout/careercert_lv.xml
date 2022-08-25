@@ -22,11 +22,14 @@
             android:textColor="#000000"
             android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/certName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+        <SearchView
+            android:id="@+id/cert_ser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:iconifiedByDefault="false"
+            app:queryHint="자격증명을 입력하세요"
+            />
+
     </LinearLayout>
 
     <LinearLayout
@@ -46,11 +49,14 @@
             android:textColor="#000000"
             android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/certinst"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+        <EditText
+            android:id="@+id/certInst"
+            android:layout_width="262dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="발급기관을 입력하세요"
+            android:inputType="textPersonName" />
 
     </LinearLayout>
 
@@ -71,12 +77,14 @@
             android:textColor="#000000"
             android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/certdate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="120dp"
-            android:text="TextView" />
+        <EditText
+            android:id="@+id/certDate"
+            android:layout_width="219dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="발급일자를 입력하세요"
+            android:inputType="date" />
 
         <ImageButton
             android:id="@+id/certCal"
@@ -86,4 +94,5 @@
             app:srcCompat="@android:drawable/ic_menu_my_calendar" />
 
     </LinearLayout>
+
 </LinearLayout>

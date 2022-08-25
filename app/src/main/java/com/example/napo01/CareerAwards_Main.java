@@ -32,7 +32,7 @@ public class CareerAwards_Main extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                TextView tv_name = (TextView)careerAwardsList.findViewById(R.id.awardsName);
+                TextView tv_name = (TextView)careerAwardsList.findViewById(R.id.internName);
                 TextView tv_inst = (TextView)careerAwardsList.findViewById(R.id.awardsInst);
                 TextView tv_date = (TextView)careerAwardsList.findViewById(R.id.awardsDate);
                 String name = tv_name.getText().toString();

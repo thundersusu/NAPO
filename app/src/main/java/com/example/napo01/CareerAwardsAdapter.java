@@ -37,7 +37,7 @@ public class CareerAwardsAdapter extends BaseAdapter {
         }
 
         CareerAwardsVO vo = awardsItems.get(i);
-        EditText awardsName = view.findViewById(R.id.awardsName);
+        EditText awardsName = view.findViewById(R.id.internName);
         EditText awardsInst = view.findViewById(R.id.awardsInst);
         EditText awardsDate = view.findViewById(R.id.awardsDate);
        awardsName.setText(vo.getName());

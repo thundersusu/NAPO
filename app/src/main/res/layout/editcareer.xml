@@ -39,7 +39,7 @@
                         android:textStyle="bold|italic" />
 
                     <TextView
-                        android:id="@+id/textView36"
+                        android:id="@+id/edt_int"
                         android:layout_width="45dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -90,7 +90,7 @@
                         android:textStyle="bold|italic" />
 
                     <TextView
-                        android:id="@+id/textView37"
+                        android:id="@+id/edt_cer"
                         android:layout_width="45dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -141,7 +141,7 @@
                         android:textStyle="bold|italic" />
 
                     <TextView
-                        android:id="@+id/textView38"
+                        android:id="@+id/edt_intn"
                         android:layout_width="45dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -191,7 +191,7 @@
                         android:textStyle="bold|italic" />
 
                     <TextView
-                        android:id="@+id/textView39"
+                        android:id="@+id/edt_lang"
                         android:layout_width="45dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -241,7 +241,7 @@
                         android:textStyle="bold|italic" />
 
                     <TextView
-                        android:id="@+id/textView40"
+                        android:id="@+id/edt_awds"
                         android:layout_width="45dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -291,7 +291,7 @@
                         android:textStyle="bold|italic" />
 
                     <TextView
-                        android:id="@+id/textView41"
+                        android:id="@+id/edt_grad"
                         android:layout_width="45dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -335,7 +335,7 @@
                         android:layout_width="330dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:text="경력"
+                        android:text="TextView"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold|italic" />

@@ -11,7 +11,7 @@ public class Popol_tem extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.popo_llist_tem);
+        setContentView(R.layout.pofo_llist_tem);
     }
 
     public void handleselection(View view) {

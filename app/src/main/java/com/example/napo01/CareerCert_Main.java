@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -28,15 +29,17 @@ public class CareerCert_Main extends AppCompatActivity {
         btn_certPlus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                TextView tv_ser = (TextView)careercert_List.findViewById(R.id.cert_ser);
+                SearchView tv_ser = (SearchView)careercert_List.findViewById(R.id.cert_ser);
                 TextView tv_inst = (TextView)careercert_List.findViewById(R.id.certInst);
                 TextView tv_date = (TextView)careercert_List.findViewById(R.id.certDate);
 
-                String ser = tv_ser.getText().toString();
+                String ser = tv_ser.getQuery().toString();
                 String inst = tv_inst.getText().toString();
                 String date = tv_date.getText().toString();
 
                 careerCertAdapter.addItems(ser, inst, date);
+                careercert_List.setAdapter(careerCertAdapter);
+                careerCertAdapter.notifyDataSetChanged();
             }
         });
 

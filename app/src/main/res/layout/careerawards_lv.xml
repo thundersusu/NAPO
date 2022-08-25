@@ -24,7 +24,7 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/awardsName"
+            android:id="@+id/internName"
             android:layout_width="260dp"
             android:layout_height="50dp"
             android:layout_marginRight="10dp"

@@ -34,7 +34,7 @@ public class CareerCertAdapter extends BaseAdapter {
         Context context = viewGroup.getContext();
         if(view==null){
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            view = inflater.inflate(R.layout.careercert_lv_copy, viewGroup, false);
+            view = inflater.inflate(R.layout.careercert_lv, viewGroup, false);
         }
 
 
@@ -43,6 +43,12 @@ public class CareerCertAdapter extends BaseAdapter {
         EditText certInst = view.findViewById(R.id.certInst);
         EditText certDate = view.findViewById(R.id.certDate);
 
+        cert_ser.setQuery(vo.getCert_ser(), false);
+        if (cert_ser.getQuery().toString().equals("")){
+            cert_ser.setIconifiedByDefault(true);
+        }else{
+            cert_ser.setIconifiedByDefault(false);
+        }
 
         certInst.setText(vo.getCertInst());
         certDate.setText(vo.getCertDate());

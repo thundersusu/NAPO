@@ -46,6 +46,14 @@ public class CareerLangAdapter extends BaseAdapter {
         lang_kind.setText(vo.getKind());
         lang_score.setText(vo.getScore());
         lang_date.setText(vo.getDate());
+        lang_test.setQuery(vo.getTest(), false);
+        if (lang_test.getQuery().toString().equals("")){
+            lang_test.setIconifiedByDefault(true);
+        }else{
+            lang_test.setIconifiedByDefault(false);
+        }
+
+
 
         return view;
     }
