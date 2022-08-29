@@ -31,7 +31,7 @@ public class CareerAwards_Main extends AppCompatActivity {
         btn_plus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                // 현령코드1
                 TextView tv_name = (TextView)careerAwardsList.findViewById(R.id.internName);
                 TextView tv_inst = (TextView)careerAwardsList.findViewById(R.id.awardsInst);
                 TextView tv_date = (TextView)careerAwardsList.findViewById(R.id.awardsDate);
