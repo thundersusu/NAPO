@@ -1,12 +1,15 @@
 package com.example.napo01;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.EditText;
 import android.widget.SearchView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -39,20 +42,20 @@ public class CareerCertAdapter extends BaseAdapter {
 
 
         CareerCertVO vo = certItems.get(i);
-        SearchView cert_ser = view.findViewById(R.id.cert_ser);
+        TextView certName = view.findViewById(R.id.certName);
         EditText certInst = view.findViewById(R.id.certInst);
         EditText certDate = view.findViewById(R.id.certDate);
 
-        cert_ser.setQuery(vo.getCert_ser(), false);
-        if (cert_ser.getQuery().toString().equals("")){
-            cert_ser.setIconifiedByDefault(true);
-        }else{
-            cert_ser.setIconifiedByDefault(false);
-        }
-
+        certName.setText(vo.getCertName());
         certInst.setText(vo.getCertInst());
         certDate.setText(vo.getCertDate());
 
+        certName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((Activity)context).startActivityForResult(new Intent(context.getApplicationContext(), CareerCertSearch.class), 1234);
+            }
+        });
 
         return view;
     }

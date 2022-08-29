@@ -22,13 +22,22 @@
             android:textColor="#000000"
             android:textSize="24sp" />
 
-        <SearchView
-            android:id="@+id/cert_ser"
-            android:layout_width="match_parent"
+        <ImageView
+            android:id="@+id/certSearch"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            app:iconifiedByDefault="false"
-            app:queryHint="자격증명을 입력하세요"
-            />
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_menu_search" />
+
+        <TextView
+            android:id="@+id/certName"
+            android:layout_width="197dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:hint="자격증명을 입력하세요"
+            android:textColor="#000000"
+            android:textSize="18sp" />
 
     </LinearLayout>
 

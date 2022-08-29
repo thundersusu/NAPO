@@ -1,6 +1,8 @@
 package com.example.napo01;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
@@ -29,11 +31,11 @@ public class CareerCert_Main extends AppCompatActivity {
         btn_certPlus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SearchView tv_ser = (SearchView)careercert_List.findViewById(R.id.cert_ser);
-                TextView tv_inst = (TextView)careercert_List.findViewById(R.id.certInst);
-                TextView tv_date = (TextView)careercert_List.findViewById(R.id.certDate);
+                TextView tv_ser = careercert_List.findViewById(R.id.certName);
+                TextView tv_inst = careercert_List.findViewById(R.id.certInst);
+                TextView tv_date = careercert_List.findViewById(R.id.certDate);
 
-                String ser = tv_ser.getQuery().toString();
+                String ser = tv_ser.getText().toString();
                 String inst = tv_inst.getText().toString();
                 String date = tv_date.getText().toString();
 
@@ -47,4 +49,18 @@ public class CareerCert_Main extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 1234){
+            if(resultCode == RESULT_OK){
+                String choice = data.getStringExtra("choice");
+                Log.d("확인", choice);
+
+                TextView tv_ser = careercert_List.findViewById(R.id.certName);
+                tv_ser.setText(choice);
+            }
+        }
+
+    }
 }

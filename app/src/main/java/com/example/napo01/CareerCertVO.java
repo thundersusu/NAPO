@@ -2,22 +2,22 @@ package com.example.napo01;
 
 public class CareerCertVO {
 
-    private String cert_ser;
+    private String certName;
     private String certInst;
     private String certDate;
 
-    public CareerCertVO(String cert_ser, String certInst, String certDate) {
-        this.cert_ser = cert_ser;
+    public CareerCertVO(String certName, String certInst, String certDate) {
+        this.certName = certName;
         this.certInst = certInst;
         this.certDate = certDate;
     }
 
-    public String getCert_ser() {
-        return cert_ser;
+    public String getCertName() {
+        return certName;
     }
 
-    public void setCert_ser(String cert_ser) {
-        this.cert_ser = cert_ser;
+    public void setCertName(String certName) {
+        this.certName = certName;
     }
 
     public String getCertInst() {

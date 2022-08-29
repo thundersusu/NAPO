@@ -1,5 +1,7 @@
 package com.example.napo01;
 
+import android.graphics.drawable.Drawable;
+
 public class CareerLangVo {
 
     private String kind;
@@ -7,11 +9,13 @@ public class CareerLangVo {
     private String score;
     private String date;
 
+
     public CareerLangVo(String kind, String test, String score, String date) {
         this.kind = kind;
         this.test = test;
         this.score = score;
         this.date = date;
+
     }
 
     public String getKind() {
@@ -45,4 +49,6 @@ public class CareerLangVo {
     public void setDate(String date) {
         this.date = date;
     }
+
+
 }

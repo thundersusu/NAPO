@@ -37,11 +37,8 @@ public class PfList_Main extends AppCompatActivity {
                 TextView tv_date = (TextView)pf_List.findViewById(R.id.tv_coDate);
                 TextView tv_title = (TextView)pf_List.findViewById(R.id.edt_pfTitle);
 
-
-
                 String date = tv_date.getText().toString();
                 String title = tv_title.getText().toString();
-
 
                 pfListAdapter.addItems(ContextCompat.getDrawable(getApplicationContext(), R.drawable.logo), date, title);
 

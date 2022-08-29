@@ -24,7 +24,18 @@
 
         </activity>
         <activity
+            android:name=".CareerCertSearch"
+            android:exported="true">
+
+        </activity>
+        <activity
             android:name=".CareerLang_Main"
+            android:exported="true">
+
+
+        </activity>
+        <activity
+            android:name=".CareerLangSearch"
             android:exported="true">
 
         </activity>
@@ -53,6 +64,13 @@
             android:exported="true">
 
         </activity>
+        <activity
+            android:name=".CareerIntern_Main"
+            android:exported="true">
+
+        </activity>
+
+
     </application>
 
 </manifest>

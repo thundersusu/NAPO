@@ -1,6 +1,7 @@
 package com.example.napo01;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -20,6 +21,14 @@ public class CareerIntroduce extends AppCompatActivity {
         tv_intro = findViewById(R.id.tv_intro);
         edt_intro = findViewById(R.id.edt_intro);
         btn_intro = findViewById(R.id.btn_intro);
+
+        btn_intro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String text = edt_intro.getText().toString();
+                edt_intro.setText(text);
+            }
+        });
 
     }
 }

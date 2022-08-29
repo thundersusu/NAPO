@@ -1,12 +1,16 @@
 package com.example.napo01;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.SearchView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -39,21 +43,20 @@ public class CareerLangAdapter extends BaseAdapter {
 
         CareerLangVo vo = langItems.get(i);
         EditText lang_kind = view.findViewById(R.id.lang_kind);
+        TextView lang_test = view.findViewById(R.id.lang_test);
         EditText lang_score = view.findViewById(R.id.lang_score);
         EditText lang_date = view.findViewById(R.id.lang_date);
-        SearchView lang_test = view.findViewById(R.id.lang_test);
 
         lang_kind.setText(vo.getKind());
+        lang_test.setText(vo.getTest());
         lang_score.setText(vo.getScore());
         lang_date.setText(vo.getDate());
-        lang_test.setQuery(vo.getTest(), false);
-        if (lang_test.getQuery().toString().equals("")){
-            lang_test.setIconifiedByDefault(true);
-        }else{
-            lang_test.setIconifiedByDefault(false);
-        }
-
-
+        lang_test.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((Activity)context).startActivityForResult(new Intent(context.getApplicationContext(), CareerLangSearch.class), 1234);
+            }
+        });
 
         return view;
     }
@@ -62,4 +65,6 @@ public class CareerLangAdapter extends BaseAdapter {
         CareerLangVo vo = new CareerLangVo(lang_kind, lang_test, lang_score, lang_date);
         langItems.add(vo);
     }
+
+
 }
