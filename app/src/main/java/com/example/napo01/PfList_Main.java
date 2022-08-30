@@ -17,6 +17,7 @@ public class PfList_Main extends AppCompatActivity {
     private ListView pf_List;
     private PfListAdapter pfListAdapter = new PfListAdapter();
     private Button btn_pfPlus;
+    private TextView pdf;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class PfList_Main extends AppCompatActivity {
 
         pf_List = findViewById(R.id.pf_list);
         btn_pfPlus = findViewById(R.id.btn_pfPlus);
+        pdf = findViewById(R.id.pdf);
 
         pf_List.setAdapter(pfListAdapter);
         pfListAdapter.addItems(ContextCompat.getDrawable(getApplicationContext(), R.drawable.logo),"","");
@@ -36,6 +38,12 @@ public class PfList_Main extends AppCompatActivity {
                 ImageView tv_img = pf_List.findViewById(R.id.pf_img);
                 TextView tv_date = (TextView)pf_List.findViewById(R.id.tv_coDate);
                 TextView tv_title = (TextView)pf_List.findViewById(R.id.edt_pfTitle);
+                pdf.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+                    }
+                });
 
                 String date = tv_date.getText().toString();
                 String title = tv_title.getText().toString();
