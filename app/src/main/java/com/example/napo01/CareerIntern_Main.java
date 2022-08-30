@@ -21,7 +21,7 @@ public class CareerIntern_Main extends AppCompatActivity {
         setContentView(R.layout.careerintern);
 
         internList = findViewById(R.id.internList);
-        btn_intern = findViewById(R.id.btn_intern);
+
 
         internList.setAdapter(careerInternAdapter);
         careerInternAdapter.addItems("","","");

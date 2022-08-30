@@ -4,84 +4,127 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#8D744F"
     tools:context=".CareerAwards_Main">
 
-    <TextView
-        android:id="@+id/tv_login"
-        android:layout_width="107dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="160dp"
-        android:text="Login"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/edt_Id"
         android:layout_width="293dp"
         android:layout_height="56dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="212dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="316dp"
+        android:background="@drawable/custom_id"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
         android:ems="10"
         android:hint="아이디"
         android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        app:barrierMargin="100dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/dalseodarling"/>
 
     <EditText
         android:id="@+id/edt_pw"
         android:layout_width="290dp"
         android:layout_height="57dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/custom_password"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:ems="10"
-        android:hint="패스워드"
+        android:hint="비밀번호"
         android:inputType="textPassword"
+        android:padding="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edt_Id" />
+        app:layout_constraintTop_toBottomOf="@+id/edt_Id"
+        android:fontFamily="@font/dalseodarling"/>
 
-    <Button
-        android:id="@+id/btn_login"
-        android:layout_width="159dp"
+    <TextView
+
+        android:id="@+id/textView27"
+        android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginTop="408dp"
-        android:layout_marginEnd="124dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#8D744F"
+        android:elevation="20dp"
+        android:gravity="center"
         android:text="로그인"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColor="#FFFFFF"
 
-    <Button
-        android:id="@+id/btn_join"
-        android:layout_width="122dp"
-        android:layout_height="49dp"
-        android:layout_marginEnd="40dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_pw"
+        android:fontFamily="@font/dalseodarling"/>
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/custom_button1"
+        android:backgroundTint="#8D744F"
+        android:elevation="20dp"
+        android:gravity="center"
         android:text="회원가입"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_find"
-        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.409"
+        android:fontFamily="@font/dalseodarling"/>
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custom_button2"
+        android:backgroundTint="#8D744F"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:text="ID/PW찾기"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44"
+        app:layout_constraintVertical_bias="0.592"
+        android:fontFamily="@font/dalseodarling"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="bear."
+        android:textColor="#8D744F"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.87" />
-
-    <Button
-        android:id="@+id/btn_find"
-        android:layout_width="126dp"
-        android:layout_height="51dp"
-        android:layout_marginEnd="60dp"
-        android:text="ID/PW 찾기"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.871" />
+        android:fontFamily="@font/dalseodarling"/>
 
     <ImageView
-        android:id="@+id/img_logo"
-        android:layout_width="419dp"
-        android:layout_height="129dp"
+        android:id="@+id/imageView4"
+        android:layout_width="189dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/img_hibear" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

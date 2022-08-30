@@ -19,10 +19,13 @@
 
     <Button
         android:id="@+id/btn_plus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="129dp"
+        android:layout_height="56dp"
         android:layout_marginBottom="28dp"
+        android:backgroundTint="#2B3AC3"
+        android:fontFamily="@font/dalseodarling"
         android:text="추가"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

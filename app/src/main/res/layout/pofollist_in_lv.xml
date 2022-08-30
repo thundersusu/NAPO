@@ -29,6 +29,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginLeft="10dp"
+                android:background="@drawable/coner2"
+                android:elevation="10dp"
+                android:fontFamily="@font/dalseodarling"
                 android:gravity="center_vertical"
                 android:hint="최종수정날짜"
                 android:textSize="20sp" />
@@ -39,8 +42,11 @@
                 android:layout_height="48dp"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/coner2"
+                android:elevation="10dp"
                 android:ems="10"
                 android:hint="포트폴리오 제목을 작성해주세요"
+                android:fontFamily="@font/dalseodarling"
                 android:inputType="textPersonName" />
 
             <TextView
@@ -48,8 +54,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginLeft="10dp"
+                android:background="@drawable/coner2"
+                android:elevation="10dp"
                 android:gravity="center_vertical"
                 android:text="PDF 추출하기"
+                android:fontFamily="@font/dalseodarling"
                 android:textColor="#000000"
                 android:textSize="20sp" />
         </LinearLayout>

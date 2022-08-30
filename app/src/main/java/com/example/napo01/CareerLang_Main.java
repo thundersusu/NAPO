@@ -23,7 +23,7 @@ public class CareerLang_Main extends AppCompatActivity {
 
 
         careerLang_List = findViewById(R.id.careerLang_List);
-        btn_langPlus = findViewById(R.id.btn_langPlus);
+
 
         careerLang_List.setAdapter(careerLangAdapter);
         careerLangAdapter.addItems("","","","");

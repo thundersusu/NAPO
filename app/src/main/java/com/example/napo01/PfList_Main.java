@@ -24,7 +24,7 @@ public class PfList_Main extends AppCompatActivity {
         setContentView(R.layout.pofollist_in);
 
         pf_List = findViewById(R.id.pf_list);
-        btn_pfPlus = findViewById(R.id.btn_pfPlus);
+
 
         pf_List.setAdapter(pfListAdapter);
         pfListAdapter.addItems(ContextCompat.getDrawable(getApplicationContext(), R.drawable.logo),"","");

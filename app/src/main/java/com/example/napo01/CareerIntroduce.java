@@ -19,7 +19,7 @@ public class CareerIntroduce extends AppCompatActivity {
 
         tv_intro = findViewById(R.id.tv_intro);
         edt_intro = findViewById(R.id.edt_intro);
-        btn_intro = findViewById(R.id.btn_intro);
+
 
     }
 }
