@@ -8,11 +8,13 @@
         <entry key="..\:/AndroidWork/NAPO/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2235" />
         <entry key="..\:/AndroidWork/NAPO/app/src/main/res/layout/activity_join.xml" value="0.18568840579710144" />
         <entry key="..\:/AndroidWork/NAPO/app/src/main/res/layout/activity_main.xml" value="0.18568840579710144" />
-        <entry key="..\:/AndroidWork/NAPO/app/src/main/res/layout/activity_mainscreen.xml" value="0.10677083333333333" />
+        <entry key="..\:/AndroidWork/NAPO/app/src/main/res/layout/activity_mainscreen.xml" value="0.264" />
         <entry key="..\:/AndroidWork/NAPO/app/src/main/res/layout/activity_team_login.xml" value="0.10677083333333333" />
         <entry key="..\:/AndroidWork/NAPO/app/src/main/res/layout/app_bar_mainscreen.xml" value="0.18568840579710144" />
+        <entry key="..\:/AndroidWork/NAPO/app/src/main/res/layout/editcareer.xml" value="0.3619791666666667" />
         <entry key="..\:/AndroidWork/NAPO/app/src/main/res/layout/fragment_gallery.xml" value="0.18568840579710144" />
         <entry key="..\:/AndroidWork/NAPO/app/src/main/res/layout/nav_header_mainscreen.xml" value="0.18541666666666667" />
+        <entry key="..\:/AndroidWork/NAPO/app/src/main/res/layout/pofo_llist_tem.xml" value="0.3619791666666667" />
         <entry key="..\:/AndroidWork/NAPO/app/src/main/res/layout/pofollist_in.xml" value="0.18541666666666667" />
         <entry key="..\:/AndroidWork/NAPO/app/src/main/res/layout/pofollist_in_lv.xml" value="0.18541666666666667" />
         <entry key="..\:/AndroidWork/NAPO/app/src/main/res/menu/activity_main_drawer.xml" value="0.2453125" />
