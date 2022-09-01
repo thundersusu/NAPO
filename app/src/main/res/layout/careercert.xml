@@ -6,6 +6,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+
+        android:id="@+id/btn_certPlus"
+        android:layout_width="261dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#2B3AC3"
+
+        android:elevation="20dp"
+        android:fontFamily="@font/dalseo"
+        android:gravity="center"
+        android:text="확인"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/careercert_List" />
+
     <ListView
         android:id="@+id/careercert_List"
         android:layout_width="391dp"
@@ -20,16 +40,5 @@
         app:layout_constraintVertical_bias="0.13">
 
     </ListView>
-
-    <Button
-        android:id="@+id/btn_certPlus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="확인"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

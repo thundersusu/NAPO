@@ -38,7 +38,7 @@ import java.util.Map;
 
                 edt_login_id = findViewById(R.id.edt_login_Id);
                 edt_login_pw = findViewById(R.id.edt_login_pw);
-                btn_join = findViewById(R.id.btn_join);
+                btn_join = findViewById(R.id.btn_login);
                 btn_login = findViewById(R.id.btn_login);
 
                 btn_join.setOnClickListener(new View.OnClickListener() {

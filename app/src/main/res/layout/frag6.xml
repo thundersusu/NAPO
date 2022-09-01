@@ -26,6 +26,7 @@
         android:ems="10"
         android:gravity="start|top"
         android:hint="대외활동 입력"
+        android:fontFamily="@font/dalseo"
         android:inputType="textMultiLine"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -39,6 +40,7 @@
         android:ems="10"
         android:gravity="start|top"
         android:hint="대외활동 입력"
+        android:fontFamily="@font/dalseo"
         android:inputType="textMultiLine"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -52,6 +54,7 @@
         android:ems="10"
         android:gravity="start|top"
         android:hint="대외활동 입력"
+        android:fontFamily="@font/dalseo"
         android:inputType="textMultiLine"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/img_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:rotation="0"
@@ -25,6 +25,7 @@
         android:layout_marginTop="160dp"
         android:ems="10"
         android:hint="제목 입력"
+        android:fontFamily="@font/dalseo"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

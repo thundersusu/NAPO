@@ -30,6 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:background="@drawable/coner2"
         android:orientation="horizontal">
 
         <TextView
@@ -39,8 +40,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="3dp"
             android:layout_weight="1"
+            android:fontFamily="@font/dalseo"
             android:text="이름 | "
-            android:textSize="20sp" />
+            android:textSize="22sp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName"
@@ -49,16 +51,18 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:ems="10"
+            android:fontFamily="@font/dalseo"
             android:hint="이름을 입력하세요"
             android:inputType="textPersonName"
             android:singleLine="false"
-            android:textSize="16sp" />
+            android:textSize="18sp" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/coner2"
         android:orientation="horizontal">
 
         <TextView
@@ -68,8 +72,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="3dp"
             android:layout_weight="1"
+            android:fontFamily="@font/dalseo"
             android:text="연락처 | "
-            android:textSize="20sp" />
+            android:textSize="22sp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
@@ -78,15 +83,17 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:ems="10"
+            android:fontFamily="@font/dalseo"
             android:hint="휴대폰 번호를 입력하세요"
             android:inputType="textPersonName"
-            android:textSize="16sp" />
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:background="@drawable/coner2"
         android:orientation="horizontal">
 
         <TextView
@@ -96,8 +103,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="3dp"
             android:layout_weight="1"
+            android:fontFamily="@font/dalseo"
             android:text="이메일 | "
-            android:textSize="20sp" />
+            android:textSize="22sp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName3"
@@ -106,15 +114,17 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:ems="10"
+            android:fontFamily="@font/dalseo"
             android:hint="이메일을 입력하세요"
             android:inputType="textPersonName"
-            android:textSize="16sp" />
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:background="@drawable/coner2"
         android:orientation="horizontal">
 
         <TextView
@@ -124,8 +134,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="3dp"
             android:layout_weight="1"
+            android:fontFamily="@font/dalseo"
             android:text="학력 | "
-            android:textSize="20sp" />
+            android:textSize="22sp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName4"
@@ -134,15 +145,17 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:ems="10"
+            android:fontFamily="@font/dalseo"
             android:hint="최종 학력을 입력하세요"
             android:inputType="textPersonName"
-            android:textSize="16sp" />
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:background="@drawable/coner2"
         android:orientation="horizontal">
 
         <TextView
@@ -152,8 +165,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="3dp"
             android:layout_weight="1"
+            android:fontFamily="@font/dalseo"
             android:text="새 비밀번호 | "
-            android:textSize="20sp" />
+            android:textSize="22sp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName5"
@@ -162,15 +176,17 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:ems="10"
+            android:fontFamily="@font/dalseo"
             android:hint="변경할 비밀번호를 입력하세요"
             android:inputType="textPersonName"
-            android:textSize="16sp" />
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:background="@drawable/coner2"
         android:orientation="horizontal">
 
         <TextView
@@ -180,8 +196,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="3dp"
             android:layout_weight="1"
+            android:fontFamily="@font/dalseo"
             android:text="새 비밀번호 확인 | "
-            android:textSize="20sp" />
+            android:textSize="22sp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName6"
@@ -190,14 +207,15 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:ems="10"
+            android:fontFamily="@font/dalseo"
             android:hint="변경할 비밀번호를 입력하세요"
             android:inputType="textPersonName"
-            android:textSize="16sp" />
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="97dp"
         android:layout_gravity="center|center_horizontal"
         android:layout_weight="1"
         android:gravity="center"
@@ -205,10 +223,13 @@
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="wrap_content"
+            android:layout_width="147dp"
             android:layout_height="wrap_content"
+            android:backgroundTint="#2B3AC3"
+            android:fontFamily="@font/dalseo"
             android:gravity="center"
-            android:text="수정완료" />
+            android:text="수정완료"
+            android:textSize="20sp" />
     </LinearLayout>
 
 </LinearLayout>

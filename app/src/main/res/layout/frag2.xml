@@ -22,6 +22,7 @@
         android:layout_marginStart="48dp"
         android:ems="10"
         android:hint="한줄소개 입력"
+        android:fontFamily="@font/dalseo"
         android:inputType="textPersonName"
         android:textColor="#F0ABB0"
         android:textSize="34sp"

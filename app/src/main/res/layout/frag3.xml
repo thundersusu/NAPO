@@ -24,6 +24,7 @@
         android:ems="10"
         android:gravity="center"
         android:hint="컴퓨터활용능력"
+        android:fontFamily="@font/dalseo"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -50,6 +51,7 @@
         android:ems="10"
         android:gravity="center"
         android:hint="자격증명"
+        android:fontFamily="@font/dalseo"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

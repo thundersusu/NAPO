@@ -6,12 +6,32 @@
     android:layout_height="match_parent">
 
     <TextView
+
+        android:id="@+id/textView37"
+        android:layout_width="261dp"
+        android:layout_height="52dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#263BF4"
+        android:elevation="20dp"
+
+        android:fontFamily="@font/dalseo"
+        android:gravity="center"
+        android:text="확인"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <TextView
         android:id="@+id/tv_intro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="44dp"
         android:text="한줄소개"
+        android:fontFamily="@font/dalseo"
         android:textColor="#000000"
         android:textSize="26sp"
         android:textStyle="bold"
@@ -20,23 +40,26 @@
 
     <EditText
         android:id="@+id/edt_intro"
-        android:layout_width="335dp"
-        android:layout_height="79dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="339dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:gravity="start|top"
         android:hint="나를 대표하는 한마디를 입력해주세요"
+        android:fontFamily="@font/dalseo"
         android:inputType="textMultiLine"
-        app:layout_constraintStart_toStartOf="@+id/tv_intro"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_intro" />
 
-    <Button
-        android:id="@+id/btn_intro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginBottom="88dp"
-        android:text="완료"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="419dp"
+        android:layout_height="399dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_e"
+        tools:layout_editor_absoluteY="166dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
