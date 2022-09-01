@@ -52,19 +52,19 @@ public class Mainscreen extends AppCompatActivity {
                 int id = item.getItemId();
 
                 if (id==R.id.nav_home){
-                    Intent intent = new Intent(getApplicationContext(), Mainscreen.class);
+                    Intent intent = new Intent(getApplicationContext(),Mainscreen.class);
                     startActivity(intent);
                 } else if (id==R.id.nav_pf_add){
-                    Intent intent = new Intent(getApplicationContext(), Mainscreen.class);
+                    Intent intent = new Intent(getApplicationContext(), EditCareer.class);
                     startActivity(intent);
                 } else if (id==R.id.nav_pf_list){
-                    Intent intent = new Intent(getApplicationContext(), Mainscreen.class);
+                    Intent intent = new Intent(getApplicationContext(), PfList_Main.class);
                     startActivity(intent);
                 } else if (id==R.id.nav_logout){
                     Intent intent = new Intent(getApplicationContext(), Team_Login.class);
                     startActivity(intent);
                 } else if (id==R.id.nav_setting){
-                    Intent intent = new Intent(getApplicationContext(), Team_Login.class);
+                    Intent intent = new Intent(getApplicationContext(), SettingPage.class);
                     startActivity(intent);
                 }
 
