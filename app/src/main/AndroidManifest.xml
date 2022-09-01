@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.napo01">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
@@ -18,75 +19,84 @@
         android:theme="@style/Theme.NAPO01"
         android:requestLegacyExternalStorage="true"
         tools:targetApi="31">
-        <activity
-            android:name=".CareerAwards_Main"
-            android:exported="false">
-
-        </activity>
-        <activity
-            android:name=".CareerCert_Main"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".CareerCertSearch"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".CareerLang_Main"
-            android:exported="true">
 
 
-        </activity>
-        <activity
-            android:name=".CareerLangSearch"
-            android:exported="true">
 
-        </activity>
         <activity
-            android:name=".PfList_Main"
+            android:name=".Mainscreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
 
-        <activity
-            android:name=".EditCareer"
-            android:exported="false"/>
-
-        <activity
-            android:name=".CareerIntroduce"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".SettingPage"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".CareerIntern_Main"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".Mainscreen"
-            android:exported="false"/>
 
         <activity
             android:name=".join"
             android:exported="false"/>
+
 
         <activity
             android:name=".Team_Login"
             android:exported="false"/>
 
 
+        <activity
+            android:name=".EditCareer"
+            android:exported="false"/>
+
+        <activity
+            android:name=".Ppt_exam"
+            android:usesCleartextTraffic="true"
+            android:theme="@style/Theme.AppCompat"
+            android:exported="true"
+            tools:targetApi="31">
+
+        </activity>
+        <activity
+            android:name=".CareerAwards_Main"
+            android:exported="false"/>
+
+
+        <activity
+            android:name=".CareerCert_Main"
+            android:exported="false"/>
+
+        <activity
+            android:name=".CareerCertSearch"
+            android:exported="false"/>
+
+        <activity
+            android:name=".CareerIntern_Main"
+            android:exported="false"/>
+
+        <activity
+            android:name=".CareerIntroduce"
+            android:exported="false"/>
+
+        <activity
+            android:name=".CareerLang_Main"
+            android:exported="true">
+
+
+        </activity>
+
+        <activity
+            android:name=".CareerLangSearch"
+            android:exported="false"/>
+
+        <activity
+            android:name=".PfList_Main"
+            android:exported="true">
+
+
+        </activity>
+
+        <activity
+            android:name=".SettingPage"
+            android:exported="false"/>
 
 
     </application>

@@ -48,7 +48,15 @@ public class CareerCertSearch extends AppCompatActivity {
         cert_search.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                CareerCertSearch.this.adapter.getFilter().filter(charSequence);
+                String value = cert_search.getText().toString();
+                ArrayList<String> search_arrayList = new ArrayList<String>();
+                for(int ii = 0; ii < arrayList.size(); ii++){
+                    if(arrayList.get(ii).startsWith(value)){
+                        search_arrayList.add(arrayList.get(ii));
+                    }
+                }
+                adapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1,search_arrayList);
+                cert_searchList.setAdapter(adapter);
             }
 
             @Override
@@ -65,8 +73,9 @@ public class CareerCertSearch extends AppCompatActivity {
         cert_searchList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                String value = (String)adapterView.getItemAtPosition(i);
                 Intent intent = new Intent();
-                intent.putExtra("choice", arrayList.get(i));
+                intent.putExtra("choice", value);
                 setResult(RESULT_OK,intent);
                 finish();
             }

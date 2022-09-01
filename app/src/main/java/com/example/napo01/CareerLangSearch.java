@@ -51,7 +51,15 @@ public class CareerLangSearch extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                CareerLangSearch.this.adapter.getFilter().filter(charSequence);
+                String value = langSearch.getText().toString();
+                ArrayList<String> search_arrayList = new ArrayList<String>();
+                for(int ii = 0; ii < arrayList.size(); ii++){
+                    if(arrayList.get(ii).startsWith(value)){
+                        search_arrayList.add(arrayList.get(ii));
+                    }
+                }
+                adapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1,search_arrayList);
+                searchList.setAdapter(adapter);
             }
 
             @Override
@@ -64,8 +72,9 @@ public class CareerLangSearch extends AppCompatActivity {
         searchList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                String value = (String)adapterView.getItemAtPosition(position);
                 Intent intent = new Intent();
-                intent.putExtra("choice",  arrayList.get(position));
+                intent.putExtra("choice",  value);
                 setResult(RESULT_OK, intent);
                 finish();
             }

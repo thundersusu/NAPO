@@ -61,7 +61,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="18dp"
                         android:layout_marginTop="10dp"
-                        android:text="TextView" />
+                        android:text="" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -112,7 +112,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="18dp"
                         android:layout_marginTop="10dp"
-                        android:text="TextView" />
+                        android:text="" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -163,7 +163,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="18dp"
                         android:layout_marginTop="10dp"
-                        android:text="TextView" />
+                        android:text="" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -213,7 +213,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="18dp"
                         android:layout_marginTop="10dp"
-                        android:text="TextView" />
+                        android:text="" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -263,7 +263,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="18dp"
                         android:layout_marginTop="10dp"
-                        android:text="TextView" />
+                        android:text="" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -313,107 +313,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="18dp"
                         android:layout_marginTop="10dp"
-                        android:text="TextView" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="30dp"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/textView25"
-                        android:layout_width="330dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="TextView"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold|italic" />
-
-                    <TextView
-                        android:id="@+id/textView42"
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="편집"
-                        android:textSize="15sp"
-                        android:textStyle="bold|italic" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView34"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="18dp"
-                        android:layout_marginTop="10dp"
-                        android:text="TextView" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="30dp"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/textView26"
-                        android:layout_width="330dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="TextView"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold|italic" />
-
-                    <TextView
-                        android:id="@+id/textView43"
-                        android:layout_width="45dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="편집"
-                        android:textSize="15sp"
-                        android:textStyle="bold|italic" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView35"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="18dp"
-                        android:layout_marginTop="10dp"
-                        android:text="TextView" />
+                        android:text="" />
                 </LinearLayout>
             </LinearLayout>
 

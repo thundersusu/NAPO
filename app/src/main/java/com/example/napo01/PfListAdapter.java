@@ -85,7 +85,7 @@ public class PfListAdapter extends BaseAdapter {
             @Override
             public void onClick(View v) {
                 Log.v("testtttt", "클릭감지");
-
+                Toast.makeText(context,"PDF 파일 생성!",Toast.LENGTH_SHORT).show();
                 try {
                     layoutToImage(itemView);
                     imageToPDF();
@@ -165,7 +165,7 @@ public class PfListAdapter extends BaseAdapter {
             img.setAlignment(Image.ALIGN_CENTER | Image.ALIGN_TOP);
             document.add(img);
             document.close();
-            Toast.makeText(context,"PDF Generated successfully!",Toast.LENGTH_SHORT).show();
+
         } catch (Exception e) {
 
         }
