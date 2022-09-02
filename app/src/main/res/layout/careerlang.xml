@@ -10,7 +10,7 @@
         android:id="@+id/textView41"
         android:layout_width="261dp"
         android:layout_height="52dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="52dp"
         android:background="@drawable/custom_button"
         android:backgroundTint="#263BF4"
 

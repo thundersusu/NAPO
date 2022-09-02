@@ -10,7 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class CareerIntroduce extends AppCompatActivity {
-    Button btn_intro;
+    TextView btn_intro;
     TextView tv_intro;
     EditText edt_intro;
     @Override
@@ -20,7 +20,7 @@ public class CareerIntroduce extends AppCompatActivity {
 
         tv_intro = findViewById(R.id.tv_intro);
         edt_intro = findViewById(R.id.edt_intro);
-        btn_intro = findViewById(R.id.btn_intro);
+        btn_intro = findViewById(R.id.textView37);
 
         btn_intro.setOnClickListener(new View.OnClickListener() {
             @Override

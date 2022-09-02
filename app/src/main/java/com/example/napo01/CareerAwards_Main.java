@@ -12,14 +12,14 @@ import android.widget.TextView;
 public class CareerAwards_Main extends AppCompatActivity {
     private ListView careerAwardsList;
     private CareerAwardsAdapter careerawardsAdapter = new CareerAwardsAdapter();
-    private Button btn_plus;
+    private TextView btn_plus;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.careerawards);
 
         careerAwardsList = findViewById(R.id.careerAwardsList);
-        btn_plus = findViewById(R.id.btn_plus);
+        btn_plus = findViewById(R.id.textView40);
 
 
 
