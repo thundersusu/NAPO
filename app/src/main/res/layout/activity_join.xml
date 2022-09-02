@@ -52,7 +52,7 @@
         android:drawableLeft="@drawable/ic_baseline_email_24"
         android:ems="10"
         android:fontFamily="@font/dalseo"
-        android:hint="이메일 입력"
+        android:hint="아이디 입력"
         android:inputType="textPersonName"
         android:padding="15dp"
         android:textSize="24sp"

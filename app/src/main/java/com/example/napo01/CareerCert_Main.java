@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class CareerCert_Main extends AppCompatActivity {
     private ListView careercert_List;
     private CareerCertAdapter careerCertAdapter = new CareerCertAdapter();
-    private Button btn_certPlus;
+    private TextView btn_certPlus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

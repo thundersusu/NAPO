@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class CareerIntern_Main extends AppCompatActivity {
     private ListView internList;
     private CareerInternAdapter careerInternAdapter = new CareerInternAdapter();
-    private Button btn_intern;
+    private TextView btn_intern;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

@@ -4,10 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.SearchView;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -25,7 +23,7 @@ public class CareerLang_Main extends AppCompatActivity {
         setContentView(R.layout.careerlang);
 
         careerLang_List = findViewById(R.id.careerLang_List);
-        btn_langPlus = findViewById(R.id.textView41);
+        btn_langPlus = findViewById(R.id.btn_langPluss);
 
         careerLang_List.setAdapter(careerLangAdapter);
         careerLangAdapter.addItems("","","","");

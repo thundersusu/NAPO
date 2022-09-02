@@ -19,7 +19,7 @@ public class CareerAwards_Main extends AppCompatActivity {
         setContentView(R.layout.careerawards);
 
         careerAwardsList = findViewById(R.id.careerAwardsList);
-        btn_plus = findViewById(R.id.textView40);
+        btn_plus = findViewById(R.id.btn_plus);
 
 
 

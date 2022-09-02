@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -29,7 +30,7 @@ import java.util.Map;
 public class join extends AppCompatActivity {
     private EditText edt_member_id, edt_member_pw, edt_member_pwCheck,edt_member_name,edt_member_phone;
     private CheckBox checkBox_member_agr;
-    private Button btn_member_join;
+    private TextView btn_member_join;
 
     private RequestQueue queue;
     private StringRequest stringRequest;

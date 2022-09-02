@@ -8,9 +8,10 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/coner2"
         android:elevation="10dp"
         android:gravity="center_vertical"
@@ -22,10 +23,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="50dp"
+            android:fontFamily="@font/dalseo"
             android:text="언어구분"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:fontFamily="@font/dalseo"/>
+            android:textSize="24sp" />
 
         <EditText
             android:id="@+id/lang_kind"
@@ -33,16 +34,16 @@
             android:layout_height="50dp"
             android:layout_weight="1"
             android:ems="10"
+            android:fontFamily="@font/dalseo"
             android:hint="언어를 등록하세요"
-            android:inputType="textPersonName"
-            android:fontFamily="@font/dalseo"/>
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/coner2"
         android:elevation="10dp"
         android:gravity="center_vertical"
@@ -54,23 +55,35 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="50dp"
+            android:fontFamily="@font/dalseo"
             android:text="시험명"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:fontFamily="@font/dalseo"/>
+            android:textSize="24sp" />
 
-        <SearchView
+        <ImageView
+            android:id="@+id/lang_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_menu_search" />
+
+        <TextView
             android:id="@+id/lang_test"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_width="197dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/dalseo"
+            android:gravity="center_vertical"
+            android:hint="시험명을 입력하세요"
+            android:textSize="18sp" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/coner2"
         android:elevation="10dp"
         android:gravity="center_vertical"
@@ -82,10 +95,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="50dp"
+            android:fontFamily="@font/dalseo"
             android:text="점수(등급)"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:fontFamily="@font/dalseo"/>
+            android:textSize="24sp" />
 
         <EditText
             android:id="@+id/lang_score"
@@ -93,17 +106,17 @@
             android:layout_height="50dp"
             android:layout_weight="1"
             android:ems="10"
+            android:fontFamily="@font/dalseo"
             android:hint="점수(등급)을 입력해주세요"
-            android:inputType="textPersonName"
-            android:fontFamily="@font/dalseo"/>
+            android:inputType="textPersonName" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/coner2"
         android:elevation="10dp"
         android:gravity="center_vertical"
@@ -115,10 +128,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="50dp"
+            android:fontFamily="@font/dalseo"
             android:text="취득일자"
             android:textColor="#000000"
-            android:textSize="24sp"
-            android:fontFamily="@font/dalseo"/>
+            android:textSize="24sp" />
 
         <EditText
             android:id="@+id/lang_date"
@@ -126,9 +139,9 @@
             android:layout_height="50dp"
             android:layout_weight="1"
             android:ems="10"
+            android:fontFamily="@font/dalseo"
             android:hint="취득일자를 입력하세요"
-            android:inputType="textPersonName"
-            android:fontFamily="@font/dalseo"/>
+            android:inputType="textPersonName" />
 
         <ImageButton
             android:id="@+id/certCal"
@@ -142,26 +155,6 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="434dp">
-
-        <TextView
-
-            android:id="@+id/textView46"
-            android:layout_width="261dp"
-            android:layout_height="52dp"
-            android:layout_marginTop="4dp"
-            android:background="@drawable/custom_button"
-            android:backgroundTint="#263BF4"
-            android:elevation="20dp"
-
-            android:fontFamily="@font/dalseo"
-            android:gravity="center"
-            android:text="확인"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
         <ImageView
             android:id="@+id/imageView6"

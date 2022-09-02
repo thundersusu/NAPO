@@ -24,10 +24,9 @@ public class Mainscreen extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainscreenBinding binding;
-
-
     private ImageButton img_pfbtn;
     private TextView tv_mainInfo;
+    private PermissionSupport permission;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +37,7 @@ public class Mainscreen extends AppCompatActivity {
         NavigationView navigationView = binding.navView;
 
 
+
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_pf_add, R.id.nav_pf_list, R.id.nav_setting, R.id.nav_logout)
                 .setOpenableLayout(drawer)
@@ -45,6 +45,8 @@ public class Mainscreen extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_mainscreen);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+        permissionCheck();
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -77,7 +79,7 @@ public class Mainscreen extends AppCompatActivity {
         img_pfbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Team_Login.class);
+                Intent intent = new Intent(getApplicationContext(),EditCareer.class);
                 startActivity(intent);
             }
         });
@@ -105,4 +107,28 @@ public class Mainscreen extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+    // 권한 체크
+    private void permissionCheck() {
+
+        // PermissionSupport.java 클래스 객체 생성
+        permission = new PermissionSupport(this, this);
+
+        // 권한 체크 후 리턴이 false로 들어오면
+        if (!permission.checkPermission()){
+            //권한 요청
+            permission.requestPermission();
+        }
+    }
+
+    // Request Permission에 대한 결과 값 받아와
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        //여기서도 리턴이 false로 들어온다면 (사용자가 권한 허용 거부)
+        if (!permission.permissionResult(requestCode, permissions, grantResults)) {
+            // 다시 permission 요청
+            permission.requestPermission();
+        }
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+    }
+
 }

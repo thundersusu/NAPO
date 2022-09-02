@@ -38,7 +38,7 @@ import java.util.IllegalFormatWidthException;
 public class PfList_Main extends AppCompatActivity {
     private ListView pf_List;
     private PfListAdapter pfListAdapter;
-    private Button btn_pfPlus;
+    private TextView btn_pfPlus;
     private TextView pdf;
     private IllegalFormatWidthException relativeLayout;
     private String dirpath;
@@ -61,7 +61,7 @@ public class PfList_Main extends AppCompatActivity {
         pfListAdapter = new PfListAdapter(size.x, size.y);
 
         pf_List.setAdapter(pfListAdapter);
-        pfListAdapter.addItems(ContextCompat.getDrawable(getApplicationContext(), R.drawable.logo), "", "");
+        pfListAdapter.addItems(ContextCompat.getDrawable(getApplicationContext(), R.drawable.img_5), "", "");
 
         pfListAdapter.notifyDataSetChanged();
         btn_pfPlus.setOnClickListener(new View.OnClickListener() {
@@ -75,7 +75,7 @@ public class PfList_Main extends AppCompatActivity {
                 String date = tv_date.getText().toString();
                 String title = tv_title.getText().toString();
 
-                pfListAdapter.addItems(ContextCompat.getDrawable(getApplicationContext(), R.drawable.logo), date, title);
+                pfListAdapter.addItems(ContextCompat.getDrawable(getApplicationContext(), R.drawable.img_5), date, title);
 
                 pf_List.setAdapter(pfListAdapter);
             }

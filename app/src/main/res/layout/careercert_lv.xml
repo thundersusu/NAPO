@@ -15,41 +15,52 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="553dp"
+        android:layout_height="518dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="549dp"
+            android:layout_height="518dp"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom1"
                 android:gravity="center_vertical"
-                android:orientation="horizontal"
-                android:background="@drawable/custom1">
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/textView48"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
                     android:layout_marginRight="50dp"
+                    android:fontFamily="@font/dalseo"
                     android:text="자격증명"
                     android:textColor="#000000"
-                    android:textSize="24sp"
-                    android:fontFamily="@font/dalseo"/>
+                    android:textSize="24sp" />
 
-                <SearchView
-                    android:id="@+id/certName"
-                    android:layout_width="match_parent"
+                <ImageView
+                    android:id="@+id/certSearch"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    app:iconifiedByDefault="false"
-                    app:queryHint="자격증명을 입력하세요" />
+                    android:layout_weight="1"
+                    app:srcCompat="@android:drawable/ic_menu_search" />
+
+                <TextView
+                    android:id="@+id/certName"
+                    android:layout_width="197dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/dalseo"
+                    android:gravity="center_vertical"
+                    android:hint="자격증명을 입력하세요"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
@@ -58,9 +69,9 @@
                 android:layout_height="50dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
+                android:background="@drawable/custom1"
                 android:gravity="center_vertical"
-                android:orientation="horizontal"
-                android:background="@drawable/custom1">
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/textView51"
@@ -68,10 +79,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="50dp"
+                    android:fontFamily="@font/dalseo"
                     android:text="발급기관"
                     android:textColor="#000000"
-                    android:textSize="24sp"
-                    android:fontFamily="@font/dalseo"/>
+                    android:textSize="24sp" />
 
                 <EditText
                     android:id="@+id/certInst"
@@ -79,9 +90,9 @@
                     android:layout_height="50dp"
                     android:layout_weight="1"
                     android:ems="10"
+                    android:fontFamily="@font/dalseo"
                     android:hint="발급기관을 입력하세요"
-                    android:inputType="textPersonName"
-                    android:fontFamily="@font/dalseo"/>
+                    android:inputType="textPersonName" />
 
             </LinearLayout>
 
@@ -90,9 +101,9 @@
                 android:layout_height="50dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
+                android:background="@drawable/custom1"
                 android:gravity="center_vertical"
-                android:orientation="horizontal"
-                android:background="@drawable/custom1">
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/textView52"
@@ -100,10 +111,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="50dp"
+                    android:fontFamily="@font/dalseo"
                     android:text="발급일자"
                     android:textColor="#000000"
-                    android:textSize="24sp"
-                    android:fontFamily="@font/dalseo"/>
+                    android:textSize="24sp" />
 
                 <EditText
                     android:id="@+id/certDate"
@@ -111,9 +122,9 @@
                     android:layout_height="50dp"
                     android:layout_weight="1"
                     android:ems="10"
+                    android:fontFamily="@font/dalseo"
                     android:hint="발급일자를 입력하세요"
-                    android:inputType="date"
-                    android:fontFamily="@font/dalseo"/>
+                    android:inputType="date" />
 
                 <ImageButton
                     android:id="@+id/certCal"

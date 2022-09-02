@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -27,7 +28,7 @@ import java.util.Map;
 
         public class Team_Login extends AppCompatActivity {
             private EditText edt_login_id, edt_login_pw;
-            private Button btn_join, btn_login;
+            private TextView btn_join, btn_login, btn_idpw_find;
 
             private RequestQueue queue;
             private StringRequest stringRequest;
@@ -38,8 +39,9 @@ import java.util.Map;
 
                 edt_login_id = findViewById(R.id.edt_login_Id);
                 edt_login_pw = findViewById(R.id.edt_login_pw);
-                btn_join = findViewById(R.id.btn_login);
+                btn_join = findViewById(R.id.btn_join);
                 btn_login = findViewById(R.id.btn_login);
+                btn_idpw_find = findViewById(R.id.btn_idpw_find);
 
                 btn_join.setOnClickListener(new View.OnClickListener() {
                     @Override
