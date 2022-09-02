@@ -57,17 +57,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView28"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="18dp"
-                        android:layout_marginTop="10dp"
-                        android:fontFamily="@font/dalseo"
-                        android:text="TextView" />
-                </LinearLayout>
+                    android:orientation="vertical"/>
 
             </LinearLayout>
 
@@ -113,17 +103,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView29"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="18dp"
-                        android:layout_marginTop="10dp"
-                        android:fontFamily="@font/dalseo"
-                        android:text="TextView" />
-                </LinearLayout>
+                    android:orientation="vertical"/>
 
             </LinearLayout>
 
@@ -169,17 +149,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView30"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="18dp"
-                        android:layout_marginTop="10dp"
-                        android:fontFamily="@font/dalseo"
-                        android:text="TextView" />
-                </LinearLayout>
+                    android:orientation="vertical"/>
             </LinearLayout>
 
             <LinearLayout
@@ -224,16 +194,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView31"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="18dp"
-                        android:layout_marginTop="10dp"
-                        android:text="TextView" />
-                </LinearLayout>
+                    android:orientation="vertical"/>
             </LinearLayout>
 
             <LinearLayout
@@ -278,17 +239,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView32"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="18dp"
-                        android:layout_marginTop="10dp"
-                        android:fontFamily="@font/dalseo"
-                        android:text="TextView" />
-                </LinearLayout>
+                    android:orientation="vertical"/>
             </LinearLayout>
 
             <LinearLayout
@@ -333,17 +284,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView33"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="18dp"
-                        android:layout_marginTop="10dp"
-                        android:fontFamily="@font/dalseo"
-                        android:text="TextView" />
-                </LinearLayout>
+                    android:orientation="vertical"/>
             </LinearLayout>
 
             <LinearLayout
@@ -388,17 +329,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView34"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="18dp"
-                        android:layout_marginTop="10dp"
-                        android:fontFamily="@font/dalseo"
-                        android:text="TextView" />
-                </LinearLayout>
+                    android:orientation="vertical"/>
             </LinearLayout>
 
             <LinearLayout
@@ -443,17 +374,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView35"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="18dp"
-                        android:layout_marginTop="10dp"
-                        android:fontFamily="@font/dalseo"
-                        android:text="TextView" />
-                </LinearLayout>
+                    android:orientation="vertical"/>
             </LinearLayout>
 
 

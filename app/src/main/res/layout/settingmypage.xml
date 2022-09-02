@@ -221,15 +221,24 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="147dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#2B3AC3"
+        <TextView
+
+            android:id="@+id/textView2"
+            android:layout_width="359dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#263BF4"
+            android:elevation="20dp"
+
             android:fontFamily="@font/dalseo"
             android:gravity="center"
             android:text="수정완료"
-            android:textSize="20sp" />
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="16dp" />
     </LinearLayout>
 
 </LinearLayout>

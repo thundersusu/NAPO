@@ -5,6 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+
+        android:id="@+id/btn_certPlus2"
+        android:layout_width="261dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#263BF4"
+        android:elevation="20dp"
+
+        android:fontFamily="@font/dalseo"
+        android:gravity="center"
+        android:text="확인"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/careerAwardsList" />
+
     <ListView
         android:id="@+id/careerAwardsList"
         android:layout_width="376dp"
@@ -17,17 +37,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btn_plus"
-        android:layout_width="129dp"
-        android:layout_height="56dp"
-        android:layout_marginBottom="28dp"
-        android:backgroundTint="#2B3AC3"
-        android:fontFamily="@font/dalseo"
-        android:text="확인"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

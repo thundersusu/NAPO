@@ -72,10 +72,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
+                android:fontFamily="@font/dalseo"
                 android:text="수상명"
-                android:textColor="#2B3AC3"
-                android:textSize="24sp"
-                android:fontFamily="@font/dalseo"/>
+                android:textColor="#263BF4"
+                android:textSize="24sp" />
 
             <EditText
                 android:id="@+id/internName"
@@ -190,7 +190,6 @@
             android:layout_height="52dp"
             android:layout_marginTop="92dp"
             android:background="@drawable/custom_button"
-            android:backgroundTint="#2B3AC3"
             android:elevation="20dp"
 
             android:fontFamily="@font/dalseo"

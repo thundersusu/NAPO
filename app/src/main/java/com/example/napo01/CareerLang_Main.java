@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class CareerLang_Main extends AppCompatActivity {
     private ListView careerLang_List, listview;
     private CareerLangAdapter careerLangAdapter = new CareerLangAdapter();
-    private Button btn_langPlus;
+    private TextView btn_langPlus;
 
 
     @Override
@@ -24,8 +24,8 @@ public class CareerLang_Main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.careerlang);
 
-        careerLang_List = findViewById(R.id.careerLang_Listt);
-        btn_langPlus = findViewById(R.id.btn_langPluss);
+        careerLang_List = findViewById(R.id.careerLang_List);
+        btn_langPlus = findViewById(R.id.textView41);
 
         careerLang_List.setAdapter(careerLangAdapter);
         careerLangAdapter.addItems("","","","");
