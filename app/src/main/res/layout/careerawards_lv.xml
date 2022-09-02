@@ -16,9 +16,48 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="354dp"
         android:background="@drawable/coner"
         android:elevation="10dp"
+=======
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/awardsdateText"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="수상일자"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/awardsDate"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="수상일자를 입력해주세요"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/certCal2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:contentDescription="달력 이미지"
+            app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+>>>>>>> 3bb7a983f9d289cc6e40d527396ad3a113fde109
         android:orientation="vertical">
 
         <LinearLayout
